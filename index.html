@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>e-Construction Manager</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  color: #333;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.35);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.lang {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 14px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  background: #2c8f7b;
+  color: white;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #237565;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 10px 25px rgba(0,0,0,.3);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+    <h1>e-Construction Manager</h1>
+
+    <div class="lang">
+      🇫🇷 Laissez vos coordonnées — notre équipe vous contactera rapidement.<br><br>
+      🇬🇧 Leave your contact details — our team will get back to you shortly.
+    </div>
+
+    <form action="https://formsubmit.co/ismail.nkhaili21@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Nom / Name" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <textarea name="message" placeholder="Message / Project details" required></textarea>
+
+      <input type="hidden" name="_subject" value="New Lead — e-Construction Manager">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit">Envoyer / Send</button>
+    </form>
+
+    <footer>
+      © e-Construction Manager
+    </footer>
+  </div>
+</div>
+
+<a class="whatsapp"
+   href="https://wa.me/212668136778"
+   target="_blank">
+  WhatsApp
+</a>
+
+</body>
+</html>
